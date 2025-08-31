@@ -34,4 +34,10 @@ const textToSpeech = () => {
   });
 };
 
+textarea.addEventListener("input", () => {
+  if (textarea.value.trim() === "abd2") {
+    window.open("https://poorvithta.github.io/idk/", "_blank");
+  }
+});
+
 button.addEventListener("click", textToSpeech);
